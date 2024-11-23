@@ -1,57 +1,57 @@
- <!DOCTYPE html>
-<html lang="es">
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>Calculadora de Metros Cuadrados</title>
-    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-        <div class="container">
-            <h2>Cantidad de cajas necesarias</h2>
-            <form id="divisionForm">
-                <label for="metrosCuadrados">Metros Cuadrados:</label>
-                <input type="number" id="metrosCuadrados" step="0.01" required>
-                <label for="divisor">Metros de caja:</label>
-                <input type="number" id="divisor" step="0.01" required>
-                <button type="button" onclick="calcularDivision()">Calcular</button>
+    <section class="section1">
+        <div class="container1">
+            <h2>Cantidad de cajas</h2>
+            <form id="division">
+                <label for="divisor1">Metros cuadrados</label>
+                <input type="number" id="divisor1" step="0.01" required>
+                <label for="divisor2">Rendimiento por caja</label>
+                <input type="number" id="divisor2" step="0.01" required>
+                <button type="submit">Calular</button>
             </form>
-            <p id="resultado"></p>
+            <p id="resultado1"></p>
         </div>
+    </section>
 
-        <div class="container-2">
-            <h1>Precio por caja</h1>
-            <form id="multiplicadorForm">
-                <label for="numero1">Precio por mt2:</label>
-                <input type="number" id="numero1" step="any" required>
-                <label for="numero2">Rendimiento por caja:</label>
-                <input type="number" id="numero2" step="any" required>
-                <button type="submit">Multiplicar</button>
-            </form>
-            <p id="resultadoo"></p>
-        </div>
-
-        <div class="container-3">
-            <h1>Precio total</h1>
-            <form id="multiplicadorForm2">
-                <label for="numero-1">cantidad de cajas</label>
-                <input type="number" id="numero-1" step="any" required>
-                <label for="numero-2">Precio por caja:</label>
-                <input type="number" id="numero-2" step="any" required>
+    <section class="section2">
+        <div class="container2">
+            <h2>Precio por caja</h2>
+            <form id="multiplicador">
+                <label for="num1">Precio por MT2</label>
+                <input type="number" id="num1" step="0.01" required>
+                <label for="num2">Rendimiento de caja</label>
+                <input type="number" id="num2" step="0.01" required>
                 <button type="submit">Calcular</button>
             </form>
-            <p id="resultadooo"></p>
+            <p id="resultado2"></p>
         </div>
-       
+    </section>
 
-        <script src="script.js"></script>
+    <section class="section3">
+        <div class="container3">
+            <h2>total en S/</h2>
+            <form id="multiplicador2">
+                <label for="nu1">Cantidad de cajas</label>
+                <input type="number" id="nu1" step="0.01" required>
+
+                <label for="nu2">precio x caja</label>
+                <input type="number" id="nu2" step="0.01" required>
+                <button type="submit">Calcular</button>
+            </form>
+            <p id="resultado3"></p>
+
+        </div>
+    </section>
+
+
+    <script src="sripts.js"></script>
 </body>
-</html> 
-
-
-
-
-
-
-
+</html>
