@@ -35,6 +35,7 @@ input{
     margin-left: 1.9rem;
     border: 1px solid #ccc;
     border-radius: 4px;
+    font-size: 2rem;
 
 }
 button{
@@ -52,6 +53,10 @@ button{
 button:hover{
     background-color: aqua;
 }
+.reCaja1{
+    font-size: 2rem;
+}
+
 
 /* container2 */
 .section2{
@@ -67,6 +72,9 @@ button:hover{
     width: 100%;
     margin-top: 5rem;
     font-size: 1.5rem;
+}
+.reCaja2{
+    font-size: 2rem;
 }
 
 /*container3*/
@@ -84,6 +92,9 @@ button:hover{
     margin-top: 5rem;
     margin-bottom: 5rem;
     font-size: 1.5rem;
+}
+.reCaja3{
+    font-size: 2rem;
 }
 
 @media (min-width: 350px) and (min-height: 350px){
