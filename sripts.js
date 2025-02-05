@@ -6,6 +6,7 @@ const divisor2 = parseFloat(document.getElementById('divisor2').value);
 const resultado = divisor1 / divisor2;
 
 document.getElementById('resultado1').textContent=`Cajas: ${resultado.toFixed(2)} `;
+document.getElementById('resultado4').textContent=`Cajas: ${resultado.toFixed(2)} `;
 
 });
 
@@ -17,6 +18,7 @@ const num2 = parseFloat(document.getElementById('num2').value);
 const resultado1 = num1 * num2;
 
 document.getElementById('resultado2').textContent=`Precio: ${resultado1.toFixed(2)}`;
+document.getElementById('resultado5').textContent=`Precio: ${resultado1.toFixed(2)}`;
 });
 
 //container 3
@@ -30,3 +32,5 @@ const resultado3 = nu1 * nu2;
 document.getElementById('resultado3').textContent=`Total: ${resultado3.toFixed(2)}`;
 
 });
+
+

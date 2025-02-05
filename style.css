@@ -4,11 +4,13 @@
     box-sizing: border-box;
     font-family: 'Times New Roman', Times, serif;
     font-weight: 700;
+    
 }
 
 .section1{
     display: flex;
     justify-content: center;
+    
 }
 .container1{
     background-color: #74b9ff;
@@ -23,11 +25,13 @@
 }
 h2{
     text-align: center;
+    
 }
 label{
     display: block;
     margin-top: 2rem;
     text-align: center;
+    
 }
 input{
     width: 80%;
@@ -36,6 +40,7 @@ input{
     border: 1px solid #ccc;
     border-radius: 4px;
     font-size: 2rem;
+    
 
 }
 button{
@@ -49,6 +54,7 @@ button{
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    
 }
 button:hover{
     background-color: aqua;
@@ -95,7 +101,15 @@ button:hover{
 }
 .reCaja3{
     font-size: 2rem;
+    text-align: center;
+    margin-top: 1.5rem;
 }
+
+.reCaja4{
+    font-size: 2rem;
+    text-align: center;
+}
+
 
 @media (min-width: 350px) and (min-height: 350px){
     .section1{
