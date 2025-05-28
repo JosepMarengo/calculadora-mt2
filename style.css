@@ -7,7 +7,6 @@
     
 }
 
-/* lo que se ve antes de los 300px */
 .section1{
     display: flex;
     justify-content: center;
@@ -48,9 +47,9 @@ button{
     margin-top: 2rem;
     display: block;  /*esto para que los elementos este debajo de otros elementos*/
     font-size: 1.5rem;
-    width: 35dvh;
+    width: 25dvh;
     padding: 0.5rem;
-    margin-left: 1.1rem;
+    margin-left: 5rem;
     margin-bottom: 1.5rem;
     border: none;
     border-radius: 4px;
@@ -112,6 +111,86 @@ button:hover{
 .reCaja4{
     font-size: 2rem;
     text-align: center;
+}
+
+@media(max-height: 380px){
+    .section1{
+    background-color: rgb(0, 0, 0)
+    }
+
+    .container1{
+    background-color: #74b9ff;
+    padding: 1rem;
+    border-radius: 9px;
+    box-shadow: 0 0 12px rgba(red, green, blue, alpha);
+   
+    width: 100dvh;
+    margin-top: 0.8rem;
+    font-size: 6dvh;
+    height: 100dvh;
+    }
+
+    label{
+    display: block;
+    margin-top: 1rem;
+    text-align: center;
+    
+    }
+    input{
+    width: 70dvh;
+    padding: 0.5rem;
+    margin-left: 1.9rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 2rem;
+    
+
+    }
+    button{
+    margin-top: 1rem;
+    display: block;  /*esto para que los elementos este debajo de otros elementos*/
+    font-size: 1.5rem;
+    width: 45dvh;
+    padding: 0.5rem;
+    margin-left: 5rem;
+    margin-bottom: 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    }
+
+    .container2{
+    background-color: #74b9ff;
+    padding: 1rem;
+    border-radius: 9px;
+    box-shadow: 0 0 12px rgba(red, green, blue, alpha);
+   
+    width: 100dvh;
+    margin-top: 0.8rem;
+    font-size: 6dvh;
+    height: 100dvh;
+}
+.reCaja2{
+    font-size: 2rem;
+}
+
+/*container3*/
+.section3{
+    display: flex;
+    justify-content: center;
+    background-color: black
+}
+.container3{
+   background-color: #74b9ff;
+    padding: 1rem;
+    border-radius: 9px;
+    box-shadow: 0 0 12px rgba(red, green, blue, alpha);
+   
+    width: 100dvh;
+    margin-top: 0.8rem;
+    font-size: 6dvh;
+    height: 110dvh;
+}
 }
 
 
